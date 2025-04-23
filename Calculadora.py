@@ -1,5 +1,8 @@
-def test (budget, rate):
+def Calculadora (budget, rate):
     result = budget/rate
     return result
 
-print(test(300, 0.0075))
+presupuesto = float(input("Insertar el presupuesto actual en dolares: "))
+tasa = float(input("Insertar la tasa de cambio: "))
+
+print("El dinero total es: " + str(Calculadora(presupuesto, tasa)))
